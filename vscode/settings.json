@@ -1,0 +1,51 @@
+{
+	"editor.fontFamily": "'JetBrains Mono'",
+	"workbench.iconTheme": "material-icon-theme",
+	"todo-tree.tree.showScanModeButton": false,
+	"explorer.confirmDelete": false,
+	"todo-tree.general.tags": [
+		"BUG",
+		"HACK",
+		"FIXME",
+		"TODO",
+		"XXX",
+		"[ ]",
+		"[x]"
+	],
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"editor.cursorBlinking": "phase",
+	"editor.cursorStyle": "block",
+	"editor.semanticTokenColorCustomizations": {
+		"[Tokyo City]": {
+			"enabled": true
+		}
+	},
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#E27A3F",
+		"editor.selectionBackground": "#135564",
+		"editor.selectionHighlightBackground": "#135564",
+		// Can customize each aspect
+		"[Tokyo City]": {
+			// Optional
+			"tab.activeBorderTop": "#E27A3F" // Active Tab Top Highlighting
+		}
+	},
+	"calva.paredit.defaultKeyMap": "strict",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"redhat.telemetry.enabled": false,
+	"editor.formatOnSave": true,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"prettier.singleQuote": true,
+	"workbench.colorTheme": "Tokyo City",
+	"window.zoomLevel": 2,
+	"prettier.useTabs": true,
+	"calva.evaluationSendCodeToOutputWindow": true,
+	"security.workspace.trust.untrustedFiles": "open"
+}
