@@ -294,4 +294,3 @@ for_window [class="VirtualBox Manager|qemu|Qemu-system-x86_64"] floating enable
 
 # BRIGHTNESS
 # xrandr --output HDMI-1-0 --brightness 0.7
-# EOF
