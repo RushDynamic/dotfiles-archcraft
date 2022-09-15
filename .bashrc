@@ -15,7 +15,8 @@ lock() {
 pconn() {
     #export PRUSER="$(sudo awk 'NR==1{print $1;}' "$HOME/Documents/proton_vpn_creds.txt")"
     #export PRPASS="$(sudo awk 'NR==2{print $1;}' "$HOME/Documents/proton_vpn_creds.txt")"
-    config="$HOME/Scripts/protonvpn-configs/nl-free-$1.protonvpn.net.udp.ovpn"
+    config_number="$([ "$1" ] && echo "$1" || echo "02")"
+    config="$HOME/Scripts/protonvpn-configs/nl-free-$config_number.protonvpn.net.udp.ovpn"
     sudo openvpn --config $config --auth-user-pass "$HOME/Documents/proton_vpn_creds.txt"
 }
 
