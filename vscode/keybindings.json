@@ -11,7 +11,7 @@
 		"when": "!editorFocus"
 	},
 	{
-		"key": "alt+enter",
+		"key": "ctrl+alt+enter",
 		"command": "editor.action.revealDefinition"
 	}
 ]
